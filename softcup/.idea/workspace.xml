@@ -1,0 +1,1572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="be62d5b5-f559-45db-9ee0-95b138155db9" name="Default" comment="最新">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__avalon_framework_avalon_framework_4_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__logkit_logkit_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/lib/common-3.3.0-v20070426.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-beanutils-1.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-beanutils-core-1.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-codec-1.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-collections-3.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-compress-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-dbcp-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-digester-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-discovery-0.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-httpclient-3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-io-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-lang-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-lang3-3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-math-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-net-1.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-pool-1.5.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-validator-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-vfs-20100924-pentaho.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kettle-core-5.2.0.0-209.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kettle-dbdialog-5.2.0.0-209.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kettle-engine-5.2.0.0-209.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kettle-ui-swt-5.2.0.0-209.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kettle5-log4j-plugin-5.2.0.0-209.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/metastore-5.2.0.0-209.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ojdbc14-10.2.0.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/baseDevice" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/baseDevice/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/baseDevice/controller/BaseDeviceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/baseDevice/dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/baseDevice/dao/BaseDeviceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/baseDevice/dao/IBaseDeviceDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/baseDevice/pojo" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/baseDevice/pojo/BaseDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/baseDevice/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/baseDevice/service/IBaseDeviceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/baseDevice/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/baseDevice/service/impl/BaseDeviceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/baseFlow" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/baseFlow/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/baseFlow/controller/BaseFlowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/baseFlow/dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/baseFlow/dao/BaseFlowMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/baseFlow/dao/IBaseFlowDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/baseFlow/pojo" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/baseFlow/pojo/BaseFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/baseFlow/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/baseFlow/service/IBaseFlowService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/baseFlow/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/baseFlow/service/impl/BaseFlowServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/energyConsume" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/energyConsume/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/energyConsume/controller/EnergyConsumeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/energyConsume/dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/energyConsume/dao/EnergyConsumeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/energyConsume/dao/IEnergyConsumeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/energyConsume/pojo" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/energyConsume/pojo/EnergyConsume.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/energyConsume/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/energyConsume/service/IEnergyConsumeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/energyConsume/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/energyConsume/service/impl/EnergyConsumeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceFault" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceFault/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceFault/controller/ProduceFaultController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceFault/dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceFault/dao/IProduceFaultDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceFault/dao/ProduceFaultMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceFault/pojo" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceFault/pojo/ProduceFault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceFault/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceFault/service/IProduceFaultService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceFault/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceFault/service/impl/ProduceFaultServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceJob" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceJob/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceJob/controller/ProduceJobController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceJob/dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceJob/dao/IProduceJobDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceJob/dao/ProduceJobMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceJob/pojo" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceJob/pojo/ChartData2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceJob/pojo/ChartData3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceJob/pojo/ProduceJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceJob/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceJob/service/IProduceJobService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceJob/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceJob/service/impl/ProduceJobServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceRepair" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceRepair/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceRepair/controller/ProduceRepairController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceRepair/dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceRepair/dao/IProduceRepairDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceRepair/dao/ProduceRepairMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceRepair/pojo" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceRepair/pojo/ProduceRepair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceRepair/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceRepair/service/IProduceRepairService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceRepair/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceRepair/service/impl/ProduceRepairServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceReport" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceReport/controller" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceReport/controller/ProduceReportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceReport/dao" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceReport/dao/IProduceReportDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceReport/dao/ProduceReportMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceReport/pojo" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceReport/pojo/ProduceReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceReport/service" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceReport/service/IProduceReportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceReport/service/impl" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/produceReport/service/impl/ProduceReportServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/reports" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/reports/DevInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/reports/EnergyConsume.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/reports/JobAmount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/reports/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/test/demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/test/poitest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/utils/CommonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qhit/utils/KettleSynchro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/static" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/static/css" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/static/css/app.48d7291425bd2df97c9d83cd19243327.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/static/css/app.48d7291425bd2df97c9d83cd19243327.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/static/css/app.dfab708a6a192081b5d4059cdfbc9d50.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/static/css/app.dfab708a6a192081b5d4059cdfbc9d50.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/static/fonts" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/static/fonts/element-icons.6f0a763.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/static/img" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/static/js" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/app.67ed0e14286d185026ef.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/app.67ed0e14286d185026ef.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/app.86d11b652716056778f5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/app.86d11b652716056778f5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/manifest.2ae2e69a05c33dfc65f8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/vendor.d14406008d02952cbfed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/vendor.d14406008d02952cbfed.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ems.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ems.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myspring2" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/myspring2/branches" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/myspring2/tags" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/myspring2/trunk" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/docs/init/斗地主.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/init/斗地主.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/docs/init/项目初始化lzx.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/init/项目初始化lzx.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/docs/tasks/4.12" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/tasks/4.12" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qhit/baseCompany/dao/BaseCompanyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qhit/baseCompany/dao/BaseCompanyMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qhit/baseCompany/dao/IBaseCompanyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qhit/baseCompany/dao/IBaseCompanyDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qhit/baseCompany/pojo/BaseCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qhit/baseCompany/pojo/BaseCompany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qhit/baseCompany/service/IBaseCompanyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qhit/baseCompany/service/IBaseCompanyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qhit/baseCompany/service/impl/BaseCompanyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qhit/baseCompany/service/impl/BaseCompanyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qhit/baseDevtype/service/IBaseDevtypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qhit/baseDevtype/service/IBaseDevtypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qhit/baseDevtype/service/impl/BaseDevtypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qhit/baseDevtype/service/impl/BaseDevtypeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qhit/utils/BaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qhit/utils/BaseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qhit/utils/GenerateCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qhit/utils/GenerateCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qhit/utils/RedisManger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qhit/utils/RedisManger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static" beforeDir="true" afterPath="$PROJECT_DIR$/src/main/resources/static" afterDir="true" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/img/bg.5d4e7fc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qhit/EmsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qhit/EmsApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/classes" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/EmsApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseCompany" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseCompany/controller" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseCompany/controller/BaseCompanyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseCompany/dao" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseCompany/dao/BaseCompanyMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseCompany/dao/IBaseCompanyDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseCompany/pojo" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseCompany/pojo/BaseCompany.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseCompany/service" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseCompany/service/IBaseCompanyService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseCompany/service/impl" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseCompany/service/impl/BaseCompanyServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseDevtype" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseDevtype/controller" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseDevtype/controller/BaseDevtypeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseDevtype/dao" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseDevtype/dao/BaseDevtypeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseDevtype/dao/IBaseDevtypeDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseDevtype/pojo" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseDevtype/pojo/BaseDevtype.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseDevtype/service" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseDevtype/service/IBaseDevtypeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseDevtype/service/impl" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseDevtype/service/impl/BaseDevtypeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseUser" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseUser/controller" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseUser/controller/BaseUserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseUser/dao" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseUser/dao/BaseUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseUser/dao/IBaseUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseUser/pojo" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseUser/pojo/BaseUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseUser/service" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseUser/service/IBaseUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseUser/service/impl" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/baseUser/service/impl/BaseUserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/test" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/test/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/utils" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/utils/BaseDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/utils/GenerateCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/utils/MyWebAppConfigurer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qhit/utils/RedisManger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/static" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/static/css" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/static/css/app.ae1d81c21e493e7f449d3470fb3a4ccc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/static/css/app.ae1d81c21e493e7f449d3470fb3a4ccc.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/static/fonts" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/static/fonts/element-icons.6f0a763.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/static/img" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/static/img/bg.5d4e7fc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/static/js" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/static/js/app.b71ba91ff2e6c42ffa95.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/static/js/app.b71ba91ff2e6c42ffa95.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/static/js/manifest.2ae2e69a05c33dfc65f8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/static/js/vendor.d14406008d02952cbfed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/static/js/vendor.d14406008d02952cbfed.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/generated-test-sources" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/generated-test-sources/test-annotations" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qhit" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qhit/EmsApplicationTests.class" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ems" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/test/poitest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/utils/CommonUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="39" column="8" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/test/demo1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1102">
+              <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/utils/GenerateCode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="25" selection-start-line="25" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/utils/MyWebAppConfigurer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/utils/RedisManger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#797#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/utils/BaseDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.16/tomcat-embed-core-9.0.16.jar!/javax/servlet/http/HttpServlet.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4104">
+              <caret line="232" selection-start-line="232" selection-end-line="232" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JUnit4 Test Class" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>conn</find>
+      <find>generatejavab</find>
+      <find>generatedao</find>
+      <find>generateDao</find>
+      <find>generatemapp</find>
+      <find>generateservice</find>
+      <find>generateserviceimpl</find>
+      <find>getConn</find>
+      <find>generateController</find>
+      <find>freef</find>
+      <find>search</find>
+      <find>http://localhost:8080</find>
+      <find>findbyid</find>
+      <find>findby</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\springBootProject\ems\src\main\resources</dir>
+      <dir>D:\开源项目\softcup\src\main\resources\static</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/produceRepair/dao/ProduceRepairMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/utils/GenerateCode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/produceReport/pojo/ProduceReport.java" />
+        <option value="$PROJECT_DIR$/src/docs/tasks/4.12" />
+        <option value="$PROJECT_DIR$/src/test/java/com/qhit/produceReport/controller/ProduceReportControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/reports/JobAmountMapper.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/reports/JobAmountMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/reports/service/impl/JobAmountImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/reports/dao/IJobAmountDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/reports/service/IJobAmountService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/baseDevtype/service/impl/BaseDevtypeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/baseDevtype/service/IBaseDevtypeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/baseDevice/dao/IBaseDeviceDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/baseDevice/controller/BaseDeviceController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/baseDevice/service/IBaseDeviceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/baseDevice/service/impl/BaseDeviceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../4.15/4.15" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/baseCompany/pojo/BaseCompany.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/utils/BaseDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/baseFlow/dao/IBaseFlowDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/baseFlow/service/IBaseFlowService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/baseFlow/service/impl/BaseFlowServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/baseDevice/pojo/BaseDevice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/baseFlow/pojo/BaseFlow.java" />
+        <option value="$PROJECT_DIR$/src/docs/tasks/4.16" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/reports/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/baseDevice/dao/BaseDeviceMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/baseFlow/dao/BaseFlowMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/reports/Comps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/reports/Flows.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/reports/Devices.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/baseCompany/service/IBaseCompanyService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/baseCompany/dao/IBaseCompanyDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/baseCompany/service/impl/BaseCompanyServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/baseCompany/dao/BaseCompanyMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/produceJob/controller/ProduceJobController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/reports/energyConsume.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/reports/JobAmount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/produceReport/service/IProduceReportService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/produceReport/dao/ProduceReportMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/produceReport/dao/IProduceReportDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/produceReport/service/impl/ProduceReportServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/reports/DevInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/produceReport/controller/ProduceReportController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/produceJob/service/impl/ProduceJobServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/produceJob/service/IProduceJobService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/test/poitest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/utils/CommonUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/test/demo1.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ems" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="1550" />
+    <option name="height" value="875" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Bean Validation issues</id>
+          </State>
+          <State>
+            <id>CDI(Contexts and Dependency Injection) issues</id>
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>JBoss Seam issues</id>
+          </State>
+          <State>
+            <id>Java EE issues</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Struts</id>
+          </State>
+          <State>
+            <id>Struts 1Struts</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpringJavaAutowiringInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="softcup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softcup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="softcup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softcup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="softcup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softcup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="softcup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softcup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="softcup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softcup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="softcup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softcup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="qhit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="softcup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softcup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="qhit" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="softcup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softcup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="softcup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softcup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="softcup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softcup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="softcup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softcup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="softcup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softcup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="app.67ed0e14286d185026ef.js" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="softcup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softcup" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556334486475" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="E:/his" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.qhit.produceReport.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\开源项目\softcup\src\main\java\com\qhit\reports\dao" />
+      <recent name="D:\springBootProject\ems\src" />
+      <recent name="D:\springBootProject\ems\src\main\resources\static" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\开源项目\softcup\src\main\java\com\qhit\utils" />
+      <recent name="D:\开源项目\softcup\src\main\java\com\qhit" />
+      <recent name="D:\开源项目\softcup\src\main\resources\static" />
+      <recent name="D:\开源项目\softcup" />
+      <recent name="D:\开源项目\softcup\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.demo1">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qhit.utils.BaseDao" />
+      <module name="ems" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qhit.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qhit.test.demo1" />
+      <module name="ems" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qhit.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="poitest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qhit.test.poitest" />
+      <module name="ems" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qhit.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qhit.reports.test" />
+      <module name="ems" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qhit.reports.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="中控.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/softcup/ems/src/docs/原型/中控.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="企业用能模型.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/softcup/ems/src/docs/原型/企业用能模型.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ems" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qhit.EmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.BaseDao" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="Application.poitest" />
+      <item itemvalue="JavaScript Debug.中控.html (1)" />
+      <item itemvalue="Spring Boot.EmsApplication" />
+      <item itemvalue="Application.demo1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.demo1" />
+        <item itemvalue="Application.poitest" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.BaseDao" />
+        <item itemvalue="JavaScript Debug.中控.html (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\DELL\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\开源项目\softcup" />
+          <option name="myCopyRoot" value="D:\开源项目\softcup" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\开源项目\softcup\.idea" />
+          <option name="myCopyRoot" value="D:\开源项目\softcup\.idea" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\开源项目\softcup" />
+          <option name="myCopyRoot" value="D:\开源项目\softcup" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be62d5b5-f559-45db-9ee0-95b138155db9" name="Default" comment="" />
+      <created>1553740907355</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553740907355</updated>
+      <workItem from="1553740912556" duration="10398000" />
+      <workItem from="1553926509482" duration="23452000" />
+      <workItem from="1554474038301" duration="6457000" />
+      <workItem from="1554621904342" duration="1337000" />
+      <workItem from="1554682900343" duration="1355000" />
+      <workItem from="1554686100101" duration="5685000" />
+      <workItem from="1554721614913" duration="3307000" />
+      <workItem from="1554767237894" duration="4071000" />
+      <workItem from="1554771344340" duration="3234000" />
+      <workItem from="1554774637091" duration="6177000" />
+      <workItem from="1554807608577" duration="1943000" />
+      <workItem from="1554810039436" duration="419000" />
+      <workItem from="1554810515679" duration="195000" />
+      <workItem from="1554854148796" duration="1962000" />
+      <workItem from="1554856649307" duration="3453000" />
+      <workItem from="1554897114717" duration="2646000" />
+      <workItem from="1554901366900" duration="1841000" />
+      <workItem from="1554903248852" duration="891000" />
+      <workItem from="1554981380804" duration="1565000" />
+      <workItem from="1555025006087" duration="3880000" />
+      <workItem from="1555028924729" duration="9194000" />
+      <workItem from="1555243447264" duration="1389000" />
+      <workItem from="1555286549361" duration="2507000" />
+      <workItem from="1555303365902" duration="3584000" />
+      <workItem from="1555316519343" duration="5525000" />
+      <workItem from="1555326154256" duration="1453000" />
+      <workItem from="1555327709384" duration="3842000" />
+      <workItem from="1555338124770" duration="7049000" />
+      <workItem from="1555369979223" duration="9763000" />
+      <workItem from="1555412912967" duration="4987000" />
+      <workItem from="1555456788097" duration="3375000" />
+      <workItem from="1555468110023" duration="6147000" />
+      <workItem from="1555479935032" duration="10234000" />
+      <workItem from="1555891058298" duration="3977000" />
+      <workItem from="1555896701836" duration="333000" />
+      <workItem from="1555897087897" duration="1854000" />
+      <workItem from="1555901528343" duration="1140000" />
+      <workItem from="1555908728526" duration="75000" />
+      <workItem from="1555938551096" duration="1120000" />
+      <workItem from="1555975684718" duration="2769000" />
+      <workItem from="1556003736922" duration="4059000" />
+      <workItem from="1556071730159" duration="1555000" />
+      <workItem from="1556073491185" duration="2843000" />
+      <workItem from="1556236702801" duration="484000" />
+      <workItem from="1556323254818" duration="3651000" />
+    </task>
+    <task id="LOCAL-00001" summary="最新">
+      <created>1554690445861</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554690445862</updated>
+    </task>
+    <task id="LOCAL-00002" summary="最新">
+      <created>1554691354427</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554691354427</updated>
+    </task>
+    <task id="LOCAL-00003" summary="最新">
+      <created>1554691667046</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554691667046</updated>
+    </task>
+    <task id="LOCAL-00004" summary="最新">
+      <created>1554691777215</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554691777215</updated>
+    </task>
+    <task id="LOCAL-00005" summary="最新">
+      <created>1554691851508</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554691851508</updated>
+    </task>
+    <task id="LOCAL-00006" summary="最新">
+      <created>1554692334726</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554692334726</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ProduceReportControllerTest_compoleteTask - 2019.04.12 at 08h 17m 43s.xml">
+      <configuration name="ProduceReportControllerTest.compoleteTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProduceReportControllerTest_compoleteTask - 2019.04.12 at 08h 25m 54s.xml">
+      <configuration name="ProduceReportControllerTest.compoleteTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProduceReportControllerTest_compoleteTask - 2019.04.12 at 08h 29m 25s.xml">
+      <configuration name="ProduceReportControllerTest.compoleteTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProduceReportControllerTest_compoleteTask - 2019.04.12 at 08h 49m 50s.xml">
+      <configuration name="ProduceReportControllerTest.compoleteTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProduceReportControllerTest_compoleteTask - 2019.04.12 at 08h 57m 08s.xml">
+      <configuration name="ProduceReportControllerTest.compoleteTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProduceReportControllerTest_compoleteTask - 2019.04.12 at 08h 58m 55s.xml">
+      <configuration name="ProduceReportControllerTest.compoleteTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProduceReportControllerTest_compoleteTask - 2019.04.12 at 09h 00m 42s.xml">
+      <configuration name="ProduceReportControllerTest.compoleteTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProduceReportControllerTest_compoleteTask - 2019.04.12 at 09h 09m 58s.xml">
+      <configuration name="ProduceReportControllerTest.compoleteTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProduceReportControllerTest_compoleteTask - 2019.04.12 at 09h 11m 20s.xml">
+      <configuration name="ProduceReportControllerTest.compoleteTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProduceReportControllerTest_compoleteTask - 2019.04.12 at 09h 13m 20s.xml">
+      <configuration name="ProduceReportControllerTest.compoleteTask" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="177177000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <layout>
+      <window_info id="设计师" order="0" />
+      <window_info id="Web" order="1" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50086355" side_tool="true" weight="0.29865772" />
+      <window_info id="Nl-Palette" order="7" />
+      <window_info content_ui="combo" id="Project" order="8" sideWeight="0.49913645" visible="true" weight="0.19664429" />
+      <window_info id="Structure" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="调试" order="0" visible="true" weight="0.35332465" />
+      <window_info anchor="bottom" id="Java Enterprise" order="1" />
+      <window_info anchor="bottom" id="消息" order="2" weight="0.47718382" />
+      <window_info anchor="bottom" id="运行" order="3" />
+      <window_info anchor="bottom" id="Messages" order="4" sideWeight="0.49127516" weight="0.3282123" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.32960895" />
+      <window_info anchor="bottom" id="Spring" order="6" sideWeight="0.49932885" weight="0.32960895" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49932885" weight="0.32960895" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.7181208" weight="0.35893854" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.2818792" side_tool="true" weight="0.26675978" />
+      <window_info anchor="bottom" id="Debug" order="12" sideWeight="0.67583895" weight="0.33798882" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" sideWeight="0.49932885" weight="0.32960895" />
+      <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="17" />
+      <window_info anchor="bottom" id="Problems" order="18" />
+      <window_info anchor="right" id="控制板" order="0" />
+      <window_info anchor="right" id="Maven Projects" order="1" />
+      <window_info anchor="right" id="Properties" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Bean Validation" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette" order="8" />
+      <window_info anchor="right" id="Commander" order="9" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="10" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="11" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="12" weight="0.3295302" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="设计师" order="0" />
+      <window_info id="Web" order="1" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50086355" side_tool="true" weight="0.29865772" />
+      <window_info id="Nl-Palette" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="8" sideWeight="0.49913645" visible="true" weight="0.27315435" />
+      <window_info id="Structure" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="调试" order="0" visible="true" weight="0.35332465" />
+      <window_info anchor="bottom" id="Java Enterprise" order="1" />
+      <window_info anchor="bottom" id="消息" order="2" weight="0.47718382" />
+      <window_info anchor="bottom" id="运行" order="3" />
+      <window_info anchor="bottom" id="Messages" order="4" sideWeight="0.49127516" weight="0.3282123" />
+      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="6" sideWeight="0.49932885" weight="0.32960895" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49932885" weight="0.32960895" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.7181208" weight="0.43575418" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.2818792" side_tool="true" weight="0.26675978" />
+      <window_info anchor="bottom" id="Debug" order="12" sideWeight="0.67583895" visible="true" weight="0.36173186" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" sideWeight="0.49932885" weight="0.32960895" />
+      <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="17" />
+      <window_info anchor="bottom" id="Problems" order="18" />
+      <window_info anchor="right" id="控制板" order="0" />
+      <window_info anchor="right" id="Maven Projects" order="1" />
+      <window_info anchor="right" id="Properties" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Bean Validation" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette" order="8" />
+      <window_info anchor="right" id="Commander" order="9" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="10" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="11" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="12" weight="0.3295302" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="最新" />
+    <option name="LAST_COMMIT_MESSAGE" value="最新" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qhit/baseFlow/controller/BaseFlowController.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qhit/baseFlow/controller/BaseFlowController.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qhit/baseFlow/service/impl/BaseFlowServiceImpl.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/baseDevice/dao/IBaseDeviceDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="41" column="55" lean-forward="true" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/produceJob/pojo/ProduceJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/baseFlow/service/impl/BaseFlowServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+          <folding>
+            <element signature="e#1326#1327#0" expanded="true" />
+            <element signature="e#1373#1374#0" expanded="true" />
+            <element signature="e#1447#1448#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/baseFlow/dao/IBaseFlowDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/baseFlow/service/IBaseFlowService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/baseFlow/controller/BaseFlowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/baseDevice/pojo/BaseDevice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/reports/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="107" column="10" selection-start-line="107" selection-start-column="10" selection-end-line="107" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/baseFlow/dao/BaseFlowMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="117" column="96" selection-start-line="117" selection-start-column="96" selection-end-line="117" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.16/tomcat-embed-core-9.0.16.jar!/org/apache/catalina/session/StandardSessionFacade.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#1321#1322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/baseDevice/dao/BaseDeviceMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/reports/Comps.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/baseDevice/service/impl/BaseDeviceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="919">
+          <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+          <folding>
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1576#1577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/reports/Devices.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.16/tomcat-embed-core-9.0.16.jar!/org/apache/tomcat/util/threads/TaskThread.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/reports/Flows.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/baseCompany/dao/BaseCompanyMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="122" column="4" selection-start-line="122" selection-start-column="4" selection-end-line="122" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/baseCompany/service/impl/BaseCompanyServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/baseCompany/service/IBaseCompanyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/baseCompany/dao/IBaseCompanyDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qhit/produceReport/controller/ProduceReportControllerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/static/js/app.8267fedb3e8d0a1498df.js" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qhit/EmsApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/baseUser/service/impl/BaseUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#1254#1255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/static/js/app.86d11b652716056778f5.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/produceJob/controller/ProduceJobController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="89" column="55" selection-start-line="89" selection-start-column="55" selection-end-line="89" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docs/tasks/4.16">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/reports/EnergyConsume.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="167" column="29" selection-start-line="167" selection-start-column="29" selection-end-line="167" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/produceReport/service/impl/ProduceReportServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2888">
+          <caret line="178" column="32" selection-start-line="178" selection-start-column="32" selection-end-line="178" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2452#2453#0" expanded="true" />
+            <element signature="e#2512#2513#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/reports/DevInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/produceReport/service/IProduceReportService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/produceJob/service/IProduceJobService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/reports/JobAmount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="662">
+          <caret line="69" column="17" lean-forward="true" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/energyConsume/dao/IEnergyConsumeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/static/js/app.67ed0e14286d185026ef.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/produceReport/dao/IProduceReportDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/produceReport/dao/ProduceReportMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7486">
+          <caret line="394" column="42" selection-start-line="394" selection-start-column="42" selection-end-line="394" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/produceJob/service/impl/ProduceJobServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/produceReport/controller/ProduceReportController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/test/poitest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/utils/GenerateCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="25" selection-start-line="25" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/utils/MyWebAppConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/utils/RedisManger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#797#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/utils/BaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.16/tomcat-embed-core-9.0.16.jar!/javax/servlet/http/HttpServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4104">
+          <caret line="232" selection-start-line="232" selection-end-line="232" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/utils/CommonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="39" column="8" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/test/demo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
