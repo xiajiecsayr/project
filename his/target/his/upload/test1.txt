@@ -1,0 +1,6 @@
+------WebKitFormBoundaryVdBNcdebOBoZzn5e
+Content-Disposition: form-data; name="photo2"; filename="2.txt"
+Content-Type: text/plain
+
+
+------WebKitFormBoundaryVdBNcdebOBoZzn5e--

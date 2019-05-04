@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.qhit.test.dao.ITestDao">
+	<!--遍历-->
+	<resultMap id="BaseResultMap" type="com.qhit.test.pojo.Test">
+		<id property="tId" column="t_id" javaType="java.lang.Integer"></id>
+		<result property="tName" column="t_name" javaType="java.lang.String"></result>
+		<result property="tSex" column="t_sex" javaType="java.lang.String"></result>
+		<result property="tAge" column="t_age" javaType="java.lang.Integer"></result>
+		<result property="decipher" column="decipher" javaType="java.lang.String"></result>
+		<!--第一种多表-->
+		<!--<association property="test1" javaType="com.qhit.test1.pojo.Test1">
+			<result property="AName" column="a_name" javaType="java.lang.String"></result>
+		</association>-->
+		<association property="test1" select="com.qhit.test1.dao.ITest1Dao.findById" column="t_id"></association>
+	</resultMap>
+	<!--遍历-->
+	<select id="findAll" resultMap="BaseResultMap">
+/*第一种多表
+		SELECT t.*,
+			CASE t.t_sex  WHEN '男'THEN '不可以生猴子' WHEN '女' THEN '可以生猴子' END AS decipher,
+			tt.a_name
+			FROM test t JOIN test_1 tt ON t.t_id=tt.t_id*/
+/*第二种多表*/
+		SELECT t.*,
+			CASE t.t_sex  WHEN '男'THEN '不可以生猴子' WHEN '女' THEN '可以生猴子' END AS decipher
+			FROM test t
+	</select>
+	<!--增-->
+	<insert id="insert" parameterType="com.qhit.test.pojo.Test">
+		insert into test(t_name,t_sex,t_age) values(#{tName},#{tSex},#{tAge})
+	</insert>
+	<!--删-->
+	<delete id="delete" parameterType="java.lang.Integer">
+		delete from test where t_id = #{tId}
+	</delete>
+<!--改-->
+	<!--通过id查到要修改的用户信息-->
+	<select id="findById" resultMap="BaseResultMap">
+		select * from test where t_id=#{0}
+	</select>
+	<!--对查到的用户信息进行修改-->
+	<update id="update" parameterType="com.qhit.test.pojo.Test">
+		update test set t_name=#{tName},t_sex=#{tSex},t_age=#{tAge} where t_id=#{tId}
+	</update>
+	<!--查-->
+	<select id="search" resultMap="BaseResultMap" parameterType="com.qhit.test.pojo.Test">
+		SELECT t.*,
+		CASE t.t_sex  WHEN '男'THEN '不可以生猴子' WHEN '女' THEN '可以生猴子' END AS decipher
+		FROM test t
+		<where>
+			<if test="tName!=null and tName!=''">and t_name like concat('%',#{tName},'%')</if>
+			<if test="tSex!=null and tSex!=''">and t_sex like concat('%',#{tSex},'%')</if>
+		</where>
+	</select>
+
+	<delete id="deleteBatch" parameterType="java.util.Arrays">
+		delete from test where t_id in
+		<foreach collection="array" item="id" open="(" close=")" separator=",">
+			#{id}
+		</foreach>
+	</delete>
+
+</mapper>
+		<!--&lt;!&ndash; 自定义结果集 &ndash;&gt;
+        <resultMap id="BaseResultMap" type="com.qhit.test.pojo.Test">
+            <id property="tId" column="t_id" javaType="java.lang.Integer"></id>
+            <result property="tName" column="t_name" javaType="java.lang.String"></result>
+            <result property="tSex" column="t_sex" javaType="java.lang.String"></result>
+            <result property="tAge" column="t_age" javaType="java.lang.Integer"></result>
+        </resultMap>
+
+        &lt;!&ndash; 在各种标签中，id属性必须与接口中的方法名一样，id的值必须是唯一的，parameterType指查询时使用的参数类型，
+        resultType属性指明查询返回的结果集类型    &ndash;&gt;
+
+        <sql id="Base_Column_List" >
+            t_id,t_name,t_sex,t_age
+        </sql>
+        <select id="findById" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+            select
+            <include refid="Base_Column_List" />
+            from test
+            where t_id = #{tId}
+        </select>
+        <delete id="delete" parameterType="java.lang.Integer" >
+            delete from test
+            where t_id = #{tId}
+        </delete>
+        <insert id="insert" parameterType="com.qhit.test.pojo.Test" >
+            insert into test(t_name,t_sex,t_age)
+            values (#{tName},#{tSex},#{tAge})
+        </insert>
+        <update id="updateSelective" parameterType="com.qhit.test.pojo.Test" >
+            update test
+            <set >
+                <if test="tName != null and tName!='' " >
+                    t_name = #{tName},
+                </if>
+                <if test="tSex != null and tSex!='' " >
+                    t_sex = #{tSex},
+                </if>
+                <if test="tAge != null and tAge!='' " >
+                    t_age = #{tAge},
+                </if>
+            </set>
+            where t_id = #{tId}
+        </update>
+        <update id="update" parameterType="com.qhit.test.pojo.Test" >
+            update test
+            set  t_name = #{tName}, t_sex = #{tSex}, t_age = #{tAge}
+            where t_id = #{tId}
+        </update>
+        <select id="findAll" resultMap="BaseResultMap" >
+            select
+            <include refid="Base_Column_List" />
+            from test
+        </select>
+        <select id="findByTName" resultMap="BaseResultMap" parameterType="java.lang.String" >
+            select
+            <include refid="Base_Column_List" />
+            from test
+            where t_name = #{tName}
+        </select>
+        <select id="findByTSex" resultMap="BaseResultMap" parameterType="java.lang.String" >
+            select
+            <include refid="Base_Column_List" />
+            from test
+            where t_sex = #{tSex}
+        </select>
+        <select id="findByTAge" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+            select
+            <include refid="Base_Column_List" />
+            from test
+            where t_age = #{tAge}
+        </select>
+        <delete id="deleteBatch" parameterType="java.util.Arrays">
+            delete from test where t_id in
+            <foreach collection="array" item="id" open="(" close=")" separator=",">
+                #{id}
+            </foreach>
+        </delete>
+        <select id="search" parameterType="com.qhit.test.pojo.Test" resultMap="BaseResultMap">
+            select * from  test
+            <where >
+                <if test="tName != null and tName!='' " >
+                     and t_name = #{tName}
+                </if>
+                <if test="tSex != null and tSex!='' " >
+                     and t_sex = #{tSex}
+                </if>
+                <if test="tAge != null and tAge!='' " >
+                     and t_age = #{tAge}
+                </if>
+            </where>
+        </select> -->
+

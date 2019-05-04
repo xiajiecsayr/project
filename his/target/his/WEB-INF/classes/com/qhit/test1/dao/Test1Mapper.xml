@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.qhit.test1.dao.ITest1Dao"> 
+	<!-- 自定义结果集 --> 
+	<resultMap id="BaseResultMap" type="com.qhit.test1.pojo.Test1"> 
+		<id property="aId" column="a_id" javaType="java.lang.Integer"></id> 
+		<result property="aName" column="a_name" javaType="java.lang.String"></result> 
+		<result property="tId" column="t_id" javaType="java.lang.Integer"></result> 
+	</resultMap> 
+ 
+	<!-- 在各种标签中，id属性必须与接口中的方法名一样，id的值必须是唯一的，parameterType指查询时使用的参数类型， 
+	resultType属性指明查询返回的结果集类型    --> 
+ 
+	<sql id="Base_Column_List" > 
+		a_id,a_name,t_id 
+	</sql> 
+	<select id="findById" resultMap="BaseResultMap" parameterType="java.lang.Integer" > 
+		select 
+		<include refid="Base_Column_List" /> 
+		from test_1 
+		where a_id = #{aId} 
+	</select> 
+	<delete id="delete" parameterType="java.lang.Integer" > 
+		delete from test_1 
+		where a_id = #{aId} 
+	</delete> 
+	<insert id="insert" parameterType="com.qhit.test1.pojo.Test1" > 
+		insert into test_1(a_name,t_id) 
+		values (#{aName},#{tId}) 
+	</insert> 
+	<update id="updateSelective" parameterType="com.qhit.test1.pojo.Test1" > 
+		update test_1 
+		<set > 
+			<if test="aName != null and aName!='' " > 
+				a_name = #{aName}, 
+			</if> 
+			<if test="tId != null and tId!='' " > 
+				t_id = #{tId}, 
+			</if> 
+		</set> 
+		where a_id = #{aId} 
+	</update> 
+	<update id="update" parameterType="com.qhit.test1.pojo.Test1" > 
+		update test_1 
+		set  a_name = #{aName}, t_id = #{tId} 
+		where a_id = #{aId} 
+	</update> 
+	<select id="findAll" resultMap="BaseResultMap" > 
+		select 
+		<include refid="Base_Column_List" /> 
+		from test_1 
+	</select> 
+	<select id="findByAName" resultMap="BaseResultMap" parameterType="java.lang.String" > 
+		select 
+		<include refid="Base_Column_List" /> 
+		from test_1 
+		where a_name = #{aName} 
+	</select> 
+	<select id="findByTId" resultMap="BaseResultMap" parameterType="java.lang.Integer" > 
+		select 
+		<include refid="Base_Column_List" /> 
+		from test_1 
+		where t_id = #{tId} 
+	</select> 
+	<delete id="deleteBatch" parameterType="java.util.Arrays"> 
+		delete from test_1 where a_id in 
+		<foreach collection="array" item="id" open="(" close=")" separator=","> 
+			#{id} 
+		</foreach> 
+	</delete> 
+	<select id="search" parameterType="com.qhit.test1.pojo.Test1" resultMap="BaseResultMap"> 
+		select * from  test_1 
+		<where > 
+			<if test="aName != null and aName!='' " > 
+				 and a_name = #{aName} 
+			</if> 
+			<if test="tId != null and tId!='' " > 
+				 and t_id = #{tId} 
+			</if> 
+		</where> 
+	</select> 
+</mapper> 

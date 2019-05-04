@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.qhit.site.dao.ISiteDao"> 
+	<!-- 自定义结果集 --> 
+	<resultMap id="BaseResultMap" type="com.qhit.site.pojo.Site"> 
+		<id property="mId" column="m_id" javaType="java.lang.Integer"></id> 
+		<result property="mSite" column="m_site" javaType="java.lang.String"></result> 
+	</resultMap> 
+ 
+	<!-- 在各种标签中，id属性必须与接口中的方法名一样，id的值必须是唯一的，parameterType指查询时使用的参数类型， 
+	resultType属性指明查询返回的结果集类型    --> 
+ 
+	<sql id="Base_Column_List" > 
+		m_id,m_site 
+	</sql> 
+	<select id="findById" resultMap="BaseResultMap" parameterType="java.lang.Integer" > 
+		select 
+		<include refid="Base_Column_List" /> 
+		from site 
+		where m_id = #{mId} 
+	</select> 
+	<delete id="delete" parameterType="java.lang.Integer" > 
+		delete from site 
+		where m_id = #{mId} 
+	</delete> 
+	<insert id="insert" parameterType="com.qhit.site.pojo.Site" > 
+		insert into site(m_site) 
+		values (#{mSite}) 
+	</insert> 
+	<update id="updateSelective" parameterType="com.qhit.site.pojo.Site" > 
+		update site 
+		<set > 
+			<if test="mSite != null and mSite!='' " > 
+				m_site = #{mSite}, 
+			</if> 
+		</set> 
+		where m_id = #{mId} 
+	</update> 
+	<update id="update" parameterType="com.qhit.site.pojo.Site" > 
+		update site 
+		set  m_site = #{mSite} 
+		where m_id = #{mId} 
+	</update> 
+	<select id="findAll" resultMap="BaseResultMap" > 
+		select 
+		<include refid="Base_Column_List" /> 
+		from site 
+	</select> 
+	<select id="findByMSite" resultMap="BaseResultMap" parameterType="java.lang.String" > 
+		select 
+		<include refid="Base_Column_List" /> 
+		from site 
+		where m_site = #{mSite} 
+	</select> 
+	<delete id="deleteBatch" parameterType="java.util.Arrays"> 
+		delete from site where m_id in 
+		<foreach collection="array" item="id" open="(" close=")" separator=","> 
+			#{id} 
+		</foreach> 
+	</delete> 
+	<select id="search" parameterType="com.qhit.site.pojo.Site" resultMap="BaseResultMap"> 
+		select * from  site 
+		<where > 
+			<if test="mSite != null and mSite!='' " > 
+				 and m_site = #{mSite} 
+			</if> 
+		</where> 
+	</select> 
+</mapper> 

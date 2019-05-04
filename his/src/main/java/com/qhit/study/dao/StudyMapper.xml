@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.qhit.study.dao.IStudyDao"> 
+	<!-- 自定义结果集 -->
+	<resultMap id="BaseResultMap" type="com.qhit.study.pojo.Study">
+		<id property="sId" column="s_id" javaType="java.lang.Integer"></id>
+		<result property="sName" column="s_name" javaType="java.lang.String"></result>
+		<result property="sSex" column="s_sex" javaType="java.lang.String"></result>
+		<result property="sAge" column="s_age" javaType="java.lang.Integer"></result>
+		<result property="sSiteid" column="s_siteid" javaType="java.lang.Integer"></result>
+		<!--<association property="site" javaType="com.qhit.site.pojo.Site">
+			<result column="m_site" property="mSite" javaType="java.lang.String"></result>
+		</association>-->
+		<association property="site" select="com.qhit.site.dao.ISiteDao.findById" column="s_siteid"> </association>
+		<!--<association property="site" select="com.qhit.site.dao.ISiteDao.findById" column="s_siteid" >
+		</association>-->
+	</resultMap>
+ 
+	<!-- 在各种标签中，id属性必须与接口中的方法名一样，id的值必须是唯一的，parameterType指查询时使用的参数类型， 
+	resultType属性指明查询返回的结果集类型    --> 
+ 
+	<sql id="Base_Column_List" > 
+		s_id,s_name,s_sex,s_age,s_siteid 
+	</sql> 
+	<select id="findById" resultMap="BaseResultMap" parameterType="java.lang.Integer" > 
+		select 
+		<include refid="Base_Column_List" /> 
+		from study 
+		where s_id = #{sId} 
+	</select> 
+	<delete id="delete" parameterType="java.lang.Integer" > 
+		delete from study 
+		where s_id = #{sId} 
+	</delete> 
+	<insert id="insert" parameterType="com.qhit.study.pojo.Study" > 
+		insert into study(s_name,s_sex,s_age,s_siteid) 
+		values (#{sName},#{sSex},#{sAge},#{sSiteid}) 
+	</insert> 
+	<update id="updateSelective" parameterType="com.qhit.study.pojo.Study" > 
+		update study 
+		<set > 
+			<if test="sName != null and sName!='' " > 
+				s_name = #{sName}, 
+			</if> 
+			<if test="sSex != null and sSex!='' " > 
+				s_sex = #{sSex}, 
+			</if> 
+			<if test="sAge != null and sAge!='' " > 
+				s_age = #{sAge}, 
+			</if> 
+			<if test="sSiteid != null and sSiteid!='' " > 
+				s_siteid = #{sSiteid}, 
+			</if> 
+		</set> 
+		where s_id = #{sId} 
+	</update> 
+	<update id="update" parameterType="com.qhit.study.pojo.Study" > 
+		update study 
+		set  s_name = #{sName}, s_sex = #{sSex}, s_age = #{sAge}, s_siteid = #{sSiteid} 
+		where s_id = #{sId} 
+	</update>
+
+	<select id="findAll" resultMap="BaseResultMap" > 
+		select 
+		<include refid="Base_Column_List" /> 
+		from study
+	</select>
+
+	<select id="findBySName" resultMap="BaseResultMap" parameterType="java.lang.String" > 
+		select 
+		<include refid="Base_Column_List" /> 
+		from study 
+		where s_name = #{sName} 
+	</select> 
+	<select id="findBySSex" resultMap="BaseResultMap" parameterType="java.lang.String" > 
+		select 
+		<include refid="Base_Column_List" /> 
+		from study 
+		where s_sex = #{sSex} 
+	</select> 
+	<select id="findBySAge" resultMap="BaseResultMap" parameterType="java.lang.Integer" > 
+		select 
+		<include refid="Base_Column_List" /> 
+		from study 
+		where s_age = #{sAge} 
+	</select> 
+	<select id="findBySSiteid" resultMap="BaseResultMap" parameterType="java.lang.Integer" > 
+		select 
+		<include refid="Base_Column_List" /> 
+		from study 
+		where s_siteid = #{sSiteid} 
+	</select> 
+	<delete id="deleteBatch" parameterType="java.util.Arrays"> 
+		delete from study where s_id in 
+		<foreach collection="array" item="id" open="(" close=")" separator=","> 
+			#{id} 
+		</foreach> 
+	</delete> 
+	<select id="search" parameterType="com.qhit.study.pojo.Study" resultMap="BaseResultMap"> 
+		select * from  study 
+		<where > 
+			<if test="sName != null and sName!='' " > 
+				 and s_name = #{sName} 
+			</if> 
+			<if test="sSex != null and sSex!='' " > 
+				 and s_sex = #{sSex} 
+			</if> 
+			<if test="sAge != null and sAge!='' " > 
+				 and s_age = #{sAge} 
+			</if> 
+			<if test="sSiteid != null and sSiteid!='' " > 
+				 and s_siteid = #{sSiteid} 
+			</if> 
+		</where> 
+	</select> 
+</mapper> 
