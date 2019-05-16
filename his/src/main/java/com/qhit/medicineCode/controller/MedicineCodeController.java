@@ -74,5 +74,6 @@ public class MedicineCodeController {
         model.addAttribute("searchObject",medicineCode); 
         return "medicineCode/list"; 
     } 
+	
  
 } 
