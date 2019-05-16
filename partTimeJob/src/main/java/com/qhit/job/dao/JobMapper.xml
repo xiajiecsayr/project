@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.qhit.job.dao.IJobDao"> 
+	<!-- 自定义结果集 --> 
+	<resultMap id="BaseResultMap" type="com.qhit.job.pojo.Job"> 
+		<id property="jobId" column="job_id" javaType="java.lang.Integer"></id> 
+		<result property="jobTime" column="job_time" javaType="java.lang.String"></result> 
+		<result property="jobContent" column="job_content" javaType="java.lang.String"></result>
+		<result property="jobState" column="job_state" javaType="java.lang.Integer"></result>
+		<result property="userId" column="user_id" javaType="java.lang.Integer"></result> 
+		<result property="address" column="address" javaType="java.lang.String"></result> 
+		<result property="jobName" column="job_name" javaType="java.lang.String"></result> 
+		<result property="jobTel" column="job_tel" javaType="java.lang.String"></result> 
+		<result property="exastate" column="exaState" javaType="java.lang.Integer"></result> 
+		<result property="jobCount" column="job_count" javaType="java.lang.Integer"></result> 
+	</resultMap> 
+
+	<!-- 在各种标签中，id属性必须与接口中的方法名一样，id的值必须是唯一的，parameterType指查询时使用的参数类型， 
+	resultType属性指明查询返回的结果集类型    --> 
+ 
+	<sql id="Base_Column_List" > 
+		job_id,job_content,job_time,job_state,user_id,address,job_name,job_tel,exaState,job_count 
+	</sql> 
+	<select id="findById" resultMap="BaseResultMap" parameterType="java.lang.Integer" > 
+		select 
+		<include refid="Base_Column_List" /> 
+		from job 
+		where job_id = #{jobId} 
+	</select> 
+	<delete id="delete" parameterType="java.lang.Integer" > 
+		delete from job 
+		where job_id = #{jobId} 
+	</delete> 
+	<insert id="insert" parameterType="com.qhit.job.pojo.Job" > 
+		insert into job(job_content,job_time,job_state,user_id,address,job_name,job_tel,exaState,job_count) 
+		values (#{jobContent},#{jobTime},#{jobState},#{userId},#{address},#{jobName},#{jobTel},#{exastate},#{jobCount}) 
+	</insert> 
+	<update id="updateSelective" parameterType="com.qhit.job.pojo.Job" > 
+		update job 
+		<set > 
+			<if test="jobContent != null and jobContent!='' " > 
+				job_content = #{jobContent}, 
+			</if> 
+			<if test="jobTime != null and jobTime!='' " > 
+				job_time = #{jobTime}, 
+			</if> 
+			<if test="jobState != null and jobState!='' " > 
+				job_state = #{jobState}, 
+			</if> 
+			<if test="userId != null and userId!='' " > 
+				user_id = #{userId}, 
+			</if> 
+			<if test="address != null and address!='' " > 
+				address = #{address}, 
+			</if> 
+			<if test="jobName != null and jobName!='' " > 
+				job_name = #{jobName}, 
+			</if> 
+			<if test="jobTel != null and jobTel!='' " > 
+				job_tel = #{jobTel}, 
+			</if> 
+			<if test="exastate != null and exastate!='' " > 
+				exaState = #{exastate}, 
+			</if> 
+			<if test="jobCount != null and jobCount!='' " > 
+				job_count = #{jobCount}, 
+			</if> 
+		</set> 
+		where job_id = #{jobId} 
+	</update> 
+	<update id="update" parameterType="com.qhit.job.pojo.Job" > 
+		update job 
+		set  job_content = #{jobContent}, job_time = #{jobTime}, job_state = #{jobState}, user_id = #{userId}, address = #{address}, job_name = #{jobName}, job_tel = #{jobTel}, exaState = #{exastate}, job_count = #{jobCount} 
+		where job_id = #{jobId} 
+	</update> 
+	<select id="findAll" resultMap="BaseResultMap" >
+		SELECT <include refid="Base_Column_List" />
+		FROM job
+		WHERE exaState=2
+		AND job_state=1
+	</select>
+	<select id="findOfManage" resultMap="BaseResultMap" >
+		select
+		<include refid="Base_Column_List" />
+		from job
+	</select>
+
+	<select id="findByJobTime" resultMap="BaseResultMap" parameterType="java.lang.String" > 
+		select 
+		<include refid="Base_Column_List" /> 
+		from job 
+		where job_time = #{jobTime} 
+	</select> 
+	<select id="findByJobState" resultMap="BaseResultMap" parameterType="java.lang.Integer" > 
+		select 
+		<include refid="Base_Column_List" /> 
+		from job 
+		where job_state = #{jobState} 
+	</select> 
+	<select id="findByUserId" resultMap="BaseResultMap" parameterType="java.lang.Integer" > 
+		select 
+		<include refid="Base_Column_List" /> 
+		from job 
+		where user_id = #{userId} 
+	</select> 
+	<select id="findByAddress" resultMap="BaseResultMap" parameterType="java.lang.String" > 
+		select 
+		<include refid="Base_Column_List" /> 
+		from job 
+		where address = #{address} 
+	</select> 
+	<select id="findByJobName" resultMap="BaseResultMap" parameterType="java.lang.String" > 
+		select 
+		<include refid="Base_Column_List" /> 
+		from job 
+		where job_name = #{jobName} 
+	</select> 
+	<select id="findByJobTel" resultMap="BaseResultMap" parameterType="java.lang.String" > 
+		select 
+		<include refid="Base_Column_List" /> 
+		from job 
+		where job_tel = #{jobTel} 
+	</select> 
+	<select id="findByExastate" resultMap="BaseResultMap" parameterType="java.lang.Integer" > 
+		select 
+		<include refid="Base_Column_List" /> 
+		from job 
+		where exaState = #{exastate} 
+	</select> 
+	<select id="findByJobCount" resultMap="BaseResultMap" parameterType="java.lang.Integer" > 
+		select 
+		<include refid="Base_Column_List" /> 
+		from job 
+		where job_count = #{jobCount} 
+	</select> 
+	<delete id="deleteBatch" parameterType="java.util.Arrays"> 
+		delete from job where job_id in 
+		<foreach collection="array" item="id" open="(" close=")" separator=","> 
+			#{id} 
+		</foreach> 
+	</delete> 
+	<select id="search" parameterType="com.qhit.job.pojo.Job" resultMap="BaseResultMap"> 
+		select * from  job 
+		<where >
+			and  exaState=2
+			and job_state=1
+			<if test="jobContent != null and jobContent!='' " > 
+				 and job_content = #{jobContent} 
+			</if> 
+			<if test="jobTime != null and jobTime!='' " > 
+				 and job_time = #{jobTime} 
+			</if> 
+			<if test="jobState != null and jobState!='' " > 
+				 and job_state = #{jobState} 
+			</if> 
+			<if test="userId != null and userId!='' " > 
+				 and user_id = #{userId} 
+			</if> 
+			<if test="address != null and address!='' " > 
+				 and address = #{address} 
+			</if> 
+			<if test="jobName != null and jobName!='' " > 
+				 and job_name = #{jobName} 
+			</if> 
+			<if test="jobTel != null and jobTel!='' " > 
+				 and job_tel = #{jobTel} 
+			</if> 
+			<if test="exastate != null and exastate!='' " > 
+				 and exaState = #{exastate} 
+			</if> 
+			<if test="jobCount != null and jobCount!='' " > 
+				 and job_count = #{jobCount} 
+			</if>
+
+		</where>
+
+	</select>
+	<select id="searchOfManage" parameterType="com.qhit.job.pojo.Job" resultMap="BaseResultMap">
+		select * from  job
+		<where >
+			<if test="jobContent != null and jobContent!='' " >
+				and job_content = #{jobContent}
+			</if>
+			<if test="jobTime != null and jobTime!='' " >
+				and job_time = #{jobTime}
+			</if>
+			<if test="jobState != null and jobState!='' " >
+				and job_state = #{jobState}
+			</if>
+			<if test="userId != null and userId!='' " >
+				and user_id = #{userId}
+			</if>
+			<if test="address != null and address!='' " >
+				and address = #{address}
+			</if>
+			<if test="jobName != null and jobName!='' " >
+				and job_name = #{jobName}
+			</if>
+			<if test="jobTel != null and jobTel!='' " >
+				and job_tel = #{jobTel}
+			</if>
+			<if test="exastate != null and exastate!='' " >
+				and exaState = #{exastate}
+			</if>
+			<if test="jobCount != null and jobCount!='' " >
+				and job_count = #{jobCount}
+			</if>
+
+		</where>
+
+	</select>
+</mapper> 

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.qhit.jobComment.dao.IJobCommentDao"> 
+	<!-- 自定义结果集 --> 
+	<resultMap id="BaseResultMap" type="com.qhit.jobComment.pojo.JobComment"> 
+		<id property="jcId" column="jc_id" javaType="java.lang.Integer"></id> 
+		<result property="userId" column="user_id" javaType="java.lang.Integer"></result> 
+		<result property="jobId" column="job_id" javaType="java.lang.Integer"></result> 
+		<result property="jcTime" column="jc_time" javaType="java.lang.String"></result> 
+		<result property="fabulouscount" column="fabulousCount" javaType="java.lang.Integer"></result> 
+	</resultMap> 
+
+	<!-- 在各种标签中，id属性必须与接口中的方法名一样，id的值必须是唯一的，parameterType指查询时使用的参数类型， 
+	resultType属性指明查询返回的结果集类型    --> 
+ 
+	<sql id="Base_Column_List" > 
+		jc_id,user_id,job_id,jc_content,jc_time,fabulousCount 
+	</sql> 
+	<select id="findById" resultMap="BaseResultMap" parameterType="java.lang.Integer" > 
+		select 
+		<include refid="Base_Column_List" /> 
+		from job_comment 
+		where jc_id = #{jcId} 
+	</select> 
+	<delete id="delete" parameterType="java.lang.Integer" > 
+		delete from job_comment 
+		where jc_id = #{jcId} 
+	</delete> 
+	<insert id="insert" parameterType="com.qhit.jobComment.pojo.JobComment" > 
+		insert into job_comment(user_id,job_id,jc_content,jc_time,fabulousCount) 
+		values (#{userId},#{jobId},#{jcContent},#{jcTime},#{fabulouscount}) 
+	</insert> 
+	<update id="updateSelective" parameterType="com.qhit.jobComment.pojo.JobComment" > 
+		update job_comment 
+		<set > 
+			<if test="userId != null and userId!='' " > 
+				user_id = #{userId}, 
+			</if> 
+			<if test="jobId != null and jobId!='' " > 
+				job_id = #{jobId}, 
+			</if> 
+			<if test="jcContent != null and jcContent!='' " > 
+				jc_content = #{jcContent}, 
+			</if> 
+			<if test="jcTime != null and jcTime!='' " > 
+				jc_time = #{jcTime}, 
+			</if> 
+			<if test="fabulouscount != null and fabulouscount!='' " > 
+				fabulousCount = #{fabulouscount}, 
+			</if> 
+		</set> 
+		where jc_id = #{jcId} 
+	</update> 
+	<update id="update" parameterType="com.qhit.jobComment.pojo.JobComment" > 
+		update job_comment 
+		set  user_id = #{userId}, job_id = #{jobId}, jc_content = #{jcContent}, jc_time = #{jcTime}, fabulousCount = #{fabulouscount} 
+		where jc_id = #{jcId} 
+	</update> 
+	<select id="findAll" resultMap="BaseResultMap" > 
+		select 
+		<include refid="Base_Column_List" /> 
+		from job_comment 
+	</select> 
+	<select id="findByUserId" resultMap="BaseResultMap" parameterType="java.lang.Integer" > 
+		select 
+		<include refid="Base_Column_List" /> 
+		from job_comment 
+		where user_id = #{userId} 
+	</select> 
+	<select id="findByJobId" resultMap="BaseResultMap" parameterType="java.lang.Integer" > 
+		select 
+		<include refid="Base_Column_List" /> 
+		from job_comment 
+		where job_id = #{jobId} 
+	</select>
+	
+	<select id="findByJcTime" resultMap="BaseResultMap" parameterType="java.lang.String" > 
+		select 
+		<include refid="Base_Column_List" /> 
+		from job_comment 
+		where jc_time = #{jcTime} 
+	</select> 
+	<select id="findByFabulouscount" resultMap="BaseResultMap" parameterType="java.lang.Integer" > 
+		select 
+		<include refid="Base_Column_List" /> 
+		from job_comment 
+		where fabulousCount = #{fabulouscount} 
+	</select> 
+	<delete id="deleteBatch" parameterType="java.util.Arrays"> 
+		delete from job_comment where jc_id in 
+		<foreach collection="array" item="id" open="(" close=")" separator=","> 
+			#{id} 
+		</foreach> 
+	</delete> 
+	<select id="search" parameterType="com.qhit.jobComment.pojo.JobComment" resultMap="BaseResultMap"> 
+		select * from  job_comment 
+		<where > 
+			<if test="userId != null and userId!='' " > 
+				 and user_id = #{userId} 
+			</if> 
+			<if test="jobId != null and jobId!='' " > 
+				 and job_id = #{jobId} 
+			</if> 
+			<if test="jcContent != null and jcContent!='' " > 
+				 and jc_content = #{jcContent} 
+			</if> 
+			<if test="jcTime != null and jcTime!='' " > 
+				 and jc_time = #{jcTime} 
+			</if> 
+			<if test="fabulouscount != null and fabulouscount!='' " > 
+				 and fabulousCount = #{fabulouscount} 
+			</if> 
+		</where> 
+	</select> 
+</mapper> 
