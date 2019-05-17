@@ -7,7 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92a2e593-4454-4588-b27e-fdbf17933a75" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/his_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/his_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/his.iml" beforeDir="false" afterPath="$PROJECT_DIR$/his.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,11 +37,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/baseDept/controller/BaseDeptController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
               <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/utils/UploadImageUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="101" column="33" selection-start-line="101" selection-start-column="33" selection-end-line="101" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/utils/POIExcel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-76">
+              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="151" column="39" selection-start-line="151" selection-start-column="39" selection-end-line="151" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/utils/BaseDaoMultilist.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,15 +142,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/qhit/patientRegisterRecord/dao/impl/PatientRegisterRecordDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qhit/telvisit/dao/impl/TelvisitDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qhit/users/dao/impl/UsersDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qhit/baseRole/service/IBaseRoleService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qhit/baseRole/controller/BaseRoleCotroller.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qhit/baseRole/service/impl/BaseRoleServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qhit/baseRoleFunction/dao/impl/BaseRoleFunctionDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/baseRole/distribute.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qhit/utils/BaseDaoMultilist.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qhit/baseUser/pojo/BaseUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qhit/baseUser/controller/BaseUserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qhit/baseUser/service/IBaseUserService.java" />
@@ -147,7 +188,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/c3p0-config.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/doctorVisitRecord/list.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/qhit/baseModule/controller/BaseModuleController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/utils/UploadImageUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/utils/CommonUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/utils/BaseDaoMultilist.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qhit/utils/POIExcel.java" />
       </list>
     </option>
   </component>
@@ -201,6 +246,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -244,39 +290,59 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="qhit" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="his" type="b2602c69:ProjectViewProjectNode" />
+              <item name="his" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="qhit" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="his" type="b2602c69:ProjectViewProjectNode" />
+              <item name="his" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="qhit" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="POIExcel.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558052002108" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558052784616" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/main/webapp/jsp/netstorage/list.jsp" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\jspcode\框架\his\src\main\webapp\jsp" />
-      <recent name="E:\jspcode\框架\his\src\main\webapp\jsp\medicineInstock" />
-      <recent name="E:\jspcode\框架\his\src\main\webapp\jsp\baseUser" />
-      <recent name="E:\jspcode\框架\his\src\main\webapp\jsp\index" />
-      <recent name="E:\jspcode\框架\his\src\main\webapp\jsp\Index" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.qhit.utils" />
-      <recent name="com.qhit.common" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\jspcode\框架\his\src\main\webapp\jsp" />
       <recent name="E:\jspcode\框架\his\src\main\java\com\qhit" />
       <recent name="E:\jspcode\框架\his\src\main\resources" />
       <recent name="E:\jspcode\框架\his\src\main\webapp\jsp\doctorVisitRecord" />
       <recent name="E:\jspcode\框架\his\src\main\java\com\qhit\utils" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qhit.utils" />
+      <recent name="com.qhit.common" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\jspcode\框架\his\src\main\webapp\jsp" />
+      <recent name="E:\jspcode\框架\his\src\main\webapp\jsp\medicineInstock" />
+      <recent name="E:\jspcode\框架\his\src\main\webapp\jsp\baseUser" />
+      <recent name="E:\jspcode\框架\his\src\main\webapp\jsp\index" />
+      <recent name="E:\jspcode\框架\his\src\main\webapp\jsp\Index" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -742,11 +808,12 @@
       <workItem from="1557735002821" duration="3000" />
       <workItem from="1557797697837" duration="1526000" />
       <workItem from="1557835484865" duration="223000" />
+      <workItem from="1558051866045" duration="919000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="521890000" />
+    <option name="totallyTimeSpent" value="522809000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -761,7 +828,7 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49150622" visible="true" weight="0.27651006" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49150622" visible="true" weight="0.28053692" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -868,34 +935,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/baseUser/pojo/BaseUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-313">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/doctorMenuMedicine/pojo/DoctorMenuMedicine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/medicineInstock/pojo/MedicineInstock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-313">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/doctorVisitRecordinfo/pojo/DoctorVisitRecordinfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/baseDept/pojo/BaseDept.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
@@ -1134,13 +1173,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/baseModule/dao/impl/BaseModuleDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -1225,6 +1257,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/utils/UploadImageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="101" column="33" selection-start-line="101" selection-start-column="33" selection-end-line="101" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/utils/CommonUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/utils/BaseDaoMultilist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="151" column="39" selection-start-line="151" selection-start-column="39" selection-end-line="151" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qhit/utils/POIExcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
